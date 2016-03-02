@@ -1,0 +1,31 @@
+{
+  "name": "cytoscape-navigator-moduledemo",
+  "version": "1.0.0",
+  "description": "example using the cytoscape-navigator plugin as a module",
+  "main": "index.js",
+  "dependencies": {
+    "cytoscape": "^2.6.5",
+    "cytoscape-navigator": "git+https://github.com/antjkennedy/cytoscape.js-navigator.git",
+    "jquery": "^2.2.1"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^1.1.1",
+    "css-loader": "^0.23.1",
+    "html-webpack-plugin": "^2.9.0",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.14"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --bail --progress --profile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antjkennedy/cytoscape.js-navigator-moduledemo.git"
+  },
+  "author": "Ant Kennedy <antjkennedy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antjkennedy/cytoscape.js-navigator-moduledemo/issues"
+  },
+  "homepage": "https://github.com/antjkennedy/cytoscape.js-navigator-moduledemo#readme"
+}
